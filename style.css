@@ -1,0 +1,38 @@
+
+ul {
+    list-style: none;
+}
+
+* {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    font-size: 18px;
+    gap: 15px;
+}
+
+.links a {
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
