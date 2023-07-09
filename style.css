@@ -5,6 +5,7 @@ ul {
 
 * {
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -15,16 +16,23 @@ ul {
     justify-content: space-between;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .header-logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-left: 100px;
 }
 
 .links {
     display: flex;
     font-size: 18px;
     gap: 15px;
+    padding-right: 100px;
 }
 
 .links a {
@@ -35,4 +43,83 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
+}
+
+.one {
+    display: flex;
+    background-color: #1F2937;
+    height: 300px;
+}
+
+.one-container {
+    display: flex;
+    gap: 50px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.Big-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+}
+
+.button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 40px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 150px;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.right-side {
+    display: flex;
+}
+
+.placeholder {
+    display: flex;
+    border: 5px solid rgb(138, 138, 138);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(138, 138, 138);
 }
