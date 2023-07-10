@@ -190,7 +190,7 @@ ul {
     border: 5px solid black;
     justify-content: center;
     border-radius: 5px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .box2 {
@@ -199,7 +199,7 @@ ul {
     height: 200px;
     border: 5px solid black;
     justify-content: center;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .subtext {
@@ -213,4 +213,29 @@ ul {
     display: flex;
     width: 200px;
     height: 200px;
+}
+
+.three {
+    display: flex;
+    height: 500px;
+    background-color: #E5E7EB;
+    font-family: 'Oswald',sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    font-weight:  lighter;
+}
+
+.three-container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: auto;
+    gap: 20px;
+}
+
+.quote .cred {
+    display: flex;
 }
