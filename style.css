@@ -268,6 +268,8 @@ ul {
     color:#F9FAF8;
     font-family: 'Roboto',sans-serif;
     justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 .left-four {
@@ -322,4 +324,20 @@ ul {
       .subtext-bar {
         display: flex;
         font-size: 19px;
+      }
+
+      .footer-container {
+        display: flex;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        background-color: #1F2937;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: center;
+        color: #F9FAF8;
+        font-family: 'Roboto',sans-serif;
+        font-size: 17px;
       }
