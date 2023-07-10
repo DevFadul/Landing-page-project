@@ -247,6 +247,8 @@ ul {
 .four {
     display: flex;
     height: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .four-container {
@@ -257,23 +259,28 @@ ul {
 
 .action-bar {
     display: flex;
-    width: 500px;
-    height: 100px;
+    width: 1300px;
+    height: 150px;
     border: 5px solid #3882F6;
     background-color: #3882F6;
     border-radius: 7px;
     gap: 40px;
     color:#F9FAF8;
     font-family: 'Roboto',sans-serif;
+    justify-content: space-around;
 }
 
 .left-four {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .right-four {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button2 {
@@ -288,6 +295,7 @@ ul {
         cursor: pointer;
         font-family:'Roboto', sans-serif;
         font-size: 100%;
+        font-weight: bold;
         height: 40px;
         line-height: 1.15;
         margin: 12px 0 0;
@@ -303,4 +311,15 @@ ul {
         -webkit-user-select: none;
         touch-action: manipulation;
         width: 150px;
+      }
+
+      .big-text-bar {
+        display: flex;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .subtext-bar {
+        display: flex;
+        font-size: 19px;
       }
